@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hero
   layers:
   - Default
   - TransparentFX
@@ -11,11 +12,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy_1
+  - Enemy_2
+  - Enemy_3
+  - Hero
+  - Bullet
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy_1
+    uniqueID: 3615261055
+    locked: 0
+  - name: Enemy_2
+    uniqueID: 4117441053
+    locked: 0
+  - name: Enemy_3
+    uniqueID: 2507072141
+    locked: 0
+  - name: Effect
+    uniqueID: 117757057
     locked: 0
