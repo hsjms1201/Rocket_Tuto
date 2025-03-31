@@ -1793,8 +1793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638c48382dd7bd3478e7ee783cfccd77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vec_target_check: {x: -0.7, y: 0.5, z: 0}
-  vec_box_size: {x: -0.19, y: 1.19, z: 1}
+  vec_target_check: {x: 1.4, y: 1.99, z: 0}
+  vec_box_size: {x: 1.22, y: 6.66, z: 1}
 --- !u!1 &1887149895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6628118391875189848, guid: 5adc49a3cd414458b96cda173bbaeffb, type: 3}
@@ -1958,7 +1958,7 @@ MonoBehaviour:
   f_enemySpeed: 3
   f_riseHeight: 1.2
   f_spacing: -0.7
-  is_up: 0
+  is_up: 
   is_down: 0
 --- !u!114 &2015853994
 MonoBehaviour:
@@ -1980,7 +1980,7 @@ MonoBehaviour:
   f_enemySpeed: 3
   f_riseHeight: 1.2
   f_spacing: -0.7
-  is_up: 0
+  is_up: 
   is_down: 0
 --- !u!114 &2015853995
 MonoBehaviour:
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   f_enemySpeed: 3
   f_riseHeight: 1.2
   f_spacing: -0.7
-  is_up: 0
+  is_up: 
   is_down: 0
 --- !u!1001 &2042914849
 PrefabInstance:

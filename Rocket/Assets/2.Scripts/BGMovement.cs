@@ -21,8 +21,9 @@ public class BGMovement : MonoBehaviour
     private void Start()
     {
         float f_length = Layer1[0].GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        m_leftPosX = -f_length;
-        m_rightPosX = f_length * Layer1.Length;
+        m_leftPosX = Mathf.Floor(-f_length * 10f) / 10f;
+        m_rightPosX = Mathf.Floor(f_length) * Layer1.Length;
+
     }
 
     private void Update()
